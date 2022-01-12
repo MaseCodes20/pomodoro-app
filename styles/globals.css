@@ -7,7 +7,7 @@
     @apply bg-black border-2 rounded-lg max-w-fit max-h-fit mx-auto shadow-md shadow-black m-4 p-2;
   }
   .TimerBtn {
-    @apply m-2 p-2 bg-yellow-400 hover:bg-yellow-500 border-2 rounded-md;
+    @apply m-2 p-2 flex items-center justify-center bg-yellow-400 hover:bg-yellow-500 border-2 rounded-md;
   }
   .startPause {
     @apply bg-yellow-400 hover:bg-yellow-500 rounded-md max-w-fit p-2 m-2;
