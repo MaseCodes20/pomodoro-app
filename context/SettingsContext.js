@@ -58,7 +58,11 @@ function SettingsContextProvider(props) {
   const children = ({ remainingTime }) => {
     const minutes = Math.floor(remainingTime / 60);
     const seconds = remainingTime % 60;
-    return `${minutes}m ${seconds}s`;
+    if (remainingTime !== 0) {
+      return `${minutes}m ${seconds}s`;
+    } else {
+      return "Times Up!";
+    }
   };
   return (
     <SettingContext.Provider

@@ -18,6 +18,7 @@ function PomodoroApp() {
   } = useContext(SettingContext);
 
   useEffect(() => updateExecute(executing), [executing, startAnimate]);
+
   return (
     <div className="appContainer">
       <div className="text-center">
@@ -95,7 +96,7 @@ function PomodoroApp() {
           <div className="flex justify-center">
             <div className="m-2">
               <div
-                className={`"startPause" ${
+                className={`${
                   startAnimate ? "startPause bg-[#0E6973]" : "startPause"
                 }`}
               >
@@ -105,7 +106,7 @@ function PomodoroApp() {
 
             <div className="m-2">
               <div
-                className={`"startPause" ${
+                className={`${
                   !startAnimate ? "startPause bg-[#A60A33]" : "startPause"
                 }`}
               >
@@ -115,8 +116,6 @@ function PomodoroApp() {
           </div>
         </div>
       )}
-
-      {/* <CountdownCircleTimer /> */}
     </div>
   );
 }

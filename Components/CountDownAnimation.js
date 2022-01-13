@@ -12,7 +12,7 @@ function CountDownAnimation({ k = 1, timer = 20, animate = true, children }) {
   return (
     <div>
       <CountdownCircleTimer
-        k={k}
+        key={k}
         isPlaying={animate}
         duration={duration(timer)}
         colors={["#0E6973", "#0E7373", "#F25E7A", "#A60A33"]}
