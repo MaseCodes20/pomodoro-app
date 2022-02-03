@@ -1,4 +1,4 @@
-Customizable Pomodoro Timer that works on mobile and desktop browers. Inspired by the the Pomodoro Technique, to help you focus on any tasks you are working on.
+Customizable Pomodoro Timer that works on mobile and desktop browsers. Inspired by the the Pomodoro Technique, to help you focus on any tasks you are working on.
 
 
 
